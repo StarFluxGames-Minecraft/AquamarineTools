@@ -1,6 +1,7 @@
 package com.starfluxgames.aquamarinetools;
 
 import com.starfluxgames.aquamarinetools.block.ModBlocks;
+import com.starfluxgames.aquamarinetools.creativetab.ModCreativeModeTabs;
 import com.starfluxgames.aquamarinetools.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -29,6 +30,7 @@ public class AquamarineTools
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -44,12 +46,14 @@ public class AquamarineTools
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        /*
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AQUAMARINE);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.AQUAMARINE_BLOCK);
         }
+        */
     }
 
     @SubscribeEvent
