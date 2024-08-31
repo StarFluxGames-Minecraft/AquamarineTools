@@ -1,0 +1,4 @@
+# Release Notes v0.0.5
+
+- Added 2 way compression recipes for Aquamarine.
+- Added loot table for Aquamarine Blocks.
