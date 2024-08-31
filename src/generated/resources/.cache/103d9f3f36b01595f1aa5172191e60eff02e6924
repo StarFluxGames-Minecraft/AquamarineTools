@@ -1,0 +1,4 @@
+// 1.21.1	2024-08-31T22:16:59.9358093	Registries
+756183fd29bb8fa0bba9061280522ae2029745ef data/aquamarinetools/neoforge/biome_modifier/add_aquamarine_ore.json
+7708c79ccda53d3375a6da51b5e078f0438a16d0 data/aquamarinetools/worldgen/configured_feature/aquamarine_ore.json
+a55fe37503ed8b572f185d6f29871c13d6d0061d data/aquamarinetools/worldgen/placed_feature/aquamarine_ore_placed.json

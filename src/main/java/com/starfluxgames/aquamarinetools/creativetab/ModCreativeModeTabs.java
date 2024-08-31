@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.AQUAMARINE);
                         output.accept(ModBlocks.AQUAMARINE_BLOCK);
+                        output.accept(ModBlocks.AQUAMARINE_SAND_ORE);
                     }).build());
 
 

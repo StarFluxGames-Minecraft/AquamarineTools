@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "aquamarinetools:aquamarine_block",
     "aquamarinetools:aquamarine_sand_ore"
   ]
 }

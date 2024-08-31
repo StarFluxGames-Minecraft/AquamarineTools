@@ -3,7 +3,6 @@ package com.starfluxgames.aquamarinetools;
 import com.starfluxgames.aquamarinetools.block.ModBlocks;
 import com.starfluxgames.aquamarinetools.creativetab.ModCreativeModeTabs;
 import com.starfluxgames.aquamarinetools.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
